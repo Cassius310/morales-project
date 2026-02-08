@@ -1,5 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://b728l1ti8j2tr"]
+[gd_scene load_steps=5 format=3 uid="uid://b728l1ti8j2tr"]
 
+[ext_resource type="Texture2D" uid="uid://dt01bq2ephndu" path="res://tilesets/back.png" id="1_06t4h"]
 [ext_resource type="Script" uid="uid://7st0qpykchfk" path="res://main_menu.gd" id="1_fu7sn"]
 [ext_resource type="Theme" uid="uid://0ev1g76m7fcc" path="res://newFmenu/main_menu.tres" id="2_jix8l"]
 [ext_resource type="Theme" uid="uid://bp5vvreo7giye" path="res://main_menu.tres" id="3_glbon"]
@@ -44,6 +45,12 @@ text = "Settings"
 [node name="Quit" type="Button" parent="PanelContainer/VBoxContainer"]
 layout_mode = 2
 text = "Quit"
+
+[node name="Back" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(575.49994, 323.50003)
+scale = Vector2(2.9921875, 2.6875)
+texture = ExtResource("1_06t4h")
 
 [connection signal="pressed" from="PanelContainer/VBoxContainer/NewGame" to="." method="_on_new_game_pressed"]
 [connection signal="pressed" from="PanelContainer/VBoxContainer/Continue" to="." method="_on_continue_pressed"]
