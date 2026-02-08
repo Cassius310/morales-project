@@ -1,0 +1,30 @@
+[gd_resource type="Theme" load_steps=4 format=3 uid="uid://bp5vvreo7giye"]
+
+[ext_resource type="FontFile" uid="uid://w6jncsvumx6v" path="res://fonts/PixelOperator8-Bold.ttf" id="1_qcqu0"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m86qt"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.05490196, 0.8, 0.8, 1)
+border_blend = true
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+shadow_color = Color(0, 0, 0.89411765, 0.6)
+shadow_size = 1
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qcqu0"]
+
+[resource]
+default_font = ExtResource("1_qcqu0")
+BoxContainer/constants/separation = 20
+Button/styles/normal = SubResource("StyleBoxFlat_m86qt")
+Label/font_sizes/font_size = 30
+Label/styles/normal = SubResource("StyleBoxEmpty_qcqu0")
