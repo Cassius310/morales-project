@@ -15,7 +15,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 [application]
 
 config/name="Morales_project"
-run/main_scene="uid://3mcy203s5nju"
+run/main_scene="uid://b728l1ti8j2tr"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 

@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://b728l1ti8j2tr"]
 
 [ext_resource type="Texture2D" uid="uid://dt01bq2ephndu" path="res://tilesets/back.png" id="1_06t4h"]
-[ext_resource type="Script" uid="uid://7st0qpykchfk" path="res://main_menu.gd" id="1_fu7sn"]
+[ext_resource type="Script" uid="uid://7st0qpykchfk" path="res://main_menu.gd" id="1_jix8l"]
 [ext_resource type="Theme" uid="uid://0ev1g76m7fcc" path="res://newFmenu/main_menu.tres" id="2_jix8l"]
 [ext_resource type="Theme" uid="uid://bp5vvreo7giye" path="res://main_menu.tres" id="3_glbon"]
 
@@ -11,7 +11,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_fu7sn")
+script = ExtResource("1_jix8l")
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
 custom_minimum_size = Vector2(400, 200)
